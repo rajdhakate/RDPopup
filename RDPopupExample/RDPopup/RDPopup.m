@@ -234,14 +234,6 @@
         }
             break;
     }
-    
-//    NSDictionary *views = @{@"customView": self.customView};
-//    NSArray *horizontalConstraint = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[customView]-|" options:NSLayoutFormatSpacingEdgeToEdge metrics:nil views:views];
-//    NSArray *verticalConstraint = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[customView]-|" options:NSLayoutFormatSpacingEdgeToEdge metrics:nil views:views];
-//    self.customView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-//    self.customView.center = self.view.center;
-//    [self.view addConstraints:horizontalConstraint];
-//    [self.view addConstraints:verticalConstraint];
 }
 
 - (void) animateOut {
