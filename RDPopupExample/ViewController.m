@@ -33,8 +33,6 @@
     popup.otherButtonTitle = @"Done";
     popup.buttonRadius = 10;
     popup.dismissOnBackgroundTap = YES;
-    popup.inAnimation = FlyInAnimationDirectionBottom;
-    popup.outAnimation = FlyOutAnimationDirectionBottom;
 }
 
 - (IBAction)buttonAction:(UIButton *)sender {

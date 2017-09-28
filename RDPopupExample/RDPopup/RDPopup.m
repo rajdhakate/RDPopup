@@ -20,10 +20,10 @@
 #define DefaultOtherTitle @"Done"
 #define DefaultIcon @"icon"
 #define DefaultImage @"image"
-#define DefaultTopMargin 250
-#define DefaultBottomMargin 250
-#define DefaultLeftMargin 20
-#define DefaultRightMargin 20
+#define DefaultTopMargin 100
+#define DefaultBottomMargin 100
+#define DefaultLeftMargin 15
+#define DefaultRightMargin 15
 #define DefaultDimmedLevel 0.3
 #define DefaultCornerRadius 10
 #define DefaultButtonRadius 10
