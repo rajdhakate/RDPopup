@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomPopup">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95E-3a-dIe">
+                    <rect key="frame" x="25" y="335" width="325" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="P2m-A6-smO"/>
+                    </constraints>
+                    <state key="normal" title="cancel">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rdp-Kw-Ulg">
+                    <rect key="frame" x="25" y="282" width="325" height="45"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Www-nE-vvK"/>
+                        <constraint firstAttribute="height" constant="45" id="yJM-XY-cg1"/>
+                    </constraints>
+                    <state key="normal" title="other button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmm-EE-NvH">
+                    <rect key="frame" x="25" y="20" width="325" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="hse-qo-bus"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uef-Zy-KQC">
+                    <rect key="frame" x="25" y="91" width="325" height="171"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLk-lI-e5E" userLabel="divider">
+                    <rect key="frame" x="25" y="70" width="325" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="cfL-l6-ARs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="95E-3a-dIe" secondAttribute="bottom" constant="20" id="1l2-E2-H82"/>
+                <constraint firstItem="95E-3a-dIe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="710-Sd-nnd"/>
+                <constraint firstAttribute="trailing" secondItem="YLk-lI-e5E" secondAttribute="trailing" constant="25" id="Emx-4e-wBf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="jmm-EE-NvH" secondAttribute="trailing" constant="25" id="J5o-zU-nbQ"/>
+                <constraint firstItem="jmm-EE-NvH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="KTT-SO-l6u"/>
+                <constraint firstItem="Rdp-Kw-Ulg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="PCj-OW-z4a"/>
+                <constraint firstItem="jmm-EE-NvH" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="PbI-PI-xV7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Rdp-Kw-Ulg" secondAttribute="trailing" constant="25" id="VXX-6y-0Hm"/>
+                <constraint firstItem="YLk-lI-e5E" firstAttribute="top" secondItem="jmm-EE-NvH" secondAttribute="bottom" constant="20" id="Vui-hv-gyU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Uef-Zy-KQC" secondAttribute="trailing" constant="25" id="afF-6h-teA"/>
+                <constraint firstItem="Uef-Zy-KQC" firstAttribute="top" secondItem="YLk-lI-e5E" secondAttribute="bottom" constant="20" id="cnd-yu-vsk"/>
+                <constraint firstItem="YLk-lI-e5E" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="dbM-fO-rZM"/>
+                <constraint firstItem="95E-3a-dIe" firstAttribute="top" secondItem="Rdp-Kw-Ulg" secondAttribute="bottom" constant="8" id="eih-5f-NXJ"/>
+                <constraint firstItem="Uef-Zy-KQC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="l7a-T4-oAI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="95E-3a-dIe" secondAttribute="trailing" constant="25" id="vTM-tW-5Aa"/>
+                <constraint firstItem="Rdp-Kw-Ulg" firstAttribute="top" secondItem="Uef-Zy-KQC" secondAttribute="bottom" constant="20" id="xII-qU-PVB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cancelButton" destination="95E-3a-dIe" id="gxp-d9-dFD"/>
+                <outlet property="messageLabel" destination="Uef-Zy-KQC" id="cLf-kq-tNU"/>
+                <outlet property="otherButton" destination="Rdp-Kw-Ulg" id="xyb-DP-I8T"/>
+                <outlet property="titleLabel" destination="jmm-EE-NvH" id="LwI-iq-ZVH"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>
