@@ -2,6 +2,8 @@
 A simple way to add custom Popup. Design on Nib and use as you want. 
 Written in Objective-C.
 
+![Demo](https://github.com/rajdhakate/RDPopup/blob/master/demo.gif)
+
 
 # HOW TO ADD :
 
