@@ -5,9 +5,9 @@ Written in Objective-C.
 
 ![Demo](https://github.com/rajdhakate/RDPopup/blob/master/demo.gif)
 
-**REQUISITE : Xcode 9 or Later, iOS 9+.**
+## REQUISITE : Xcode 9 or Later, iOS 9+.**
 
-**HOW TO ADD:**
+## HOW TO ADD:
 ```
 1. Clone/Download the master-repo.
 
@@ -17,8 +17,8 @@ Written in Objective-C.
 
 4. Add #import "RDPopup/RDPopup.h"
 ```
-**HOW TO USE:**
-```
+## HOW TO USE:
+
 1. Create a new view/nib file. Set the class name to "CustomPopup".
 
 2. Set the outlets to your respective views.
@@ -35,8 +35,8 @@ Written in Objective-C.
 
 6. To hide [popup hidePopup];
 
-```
-**Customizations:**
+
+## Customizations:
 
 Gives you the freedom to design you own popup in nib.
 
