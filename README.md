@@ -36,7 +36,7 @@ Written in Objective-C.
 6. To hide [popup hidePopup];
 
 
-# Customizations :
+**Customizations:**
 
 Gives you the freedom to design you own popup in nib.
 
@@ -46,11 +46,11 @@ Title Label, message label, cancel button, other button, icon imageview, imagevi
 
 RDPopup view can be customized by : 
 
-
+```
 /*
 Animation Duration . Default value 0.3
 */
-```
+
 @property (assign, nonatomic) float animationDuration;
 ```
 
