@@ -8,15 +8,15 @@ Written in Objective-C.
 ## REQUISITE : Xcode 9 or Later, iOS 9+.**
 
 ## HOW TO ADD:
-```
+
 1. Clone/Download the master-repo.
 
-2. Import "RDPopup" folder (.m/.h) into your project.
+2. Import ```"RDPopup"``` folder (.m/.h) into your project.
 
 3. Create an ABCIntroView property and add the ABCIntroViewDelegate.
 
-4. Add #import "RDPopup/RDPopup.h"
-```
+4. Add ```#import "RDPopup/RDPopup.h"```
+
 ## HOW TO USE:
 
 1. Create a new view/nib file. Set the class name to "CustomPopup".
