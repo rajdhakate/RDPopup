@@ -50,9 +50,9 @@ RDPopup view can be customized by :
 /*
 Animation Duration . Default value 0.3
 */
-
+```
 @property (assign, nonatomic) float animationDuration;
-
+```
 
 /*
 Presenting animation type
