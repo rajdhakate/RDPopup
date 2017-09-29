@@ -5,6 +5,8 @@ Written in Objective-C.
 ![Demo](https://github.com/rajdhakate/RDPopup/blob/master/demo.gif)
 
 
+## REQUISITE : Xcode 9 or Later, iOS 9+.
+
 # HOW TO ADD :
 
 1) Clone/Download the master-repo.
