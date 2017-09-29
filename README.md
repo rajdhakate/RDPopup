@@ -46,102 +46,102 @@ Title Label, message label, cancel button, other button, icon imageview, imagevi
 
 RDPopup view can be customized by : 
 
-```
+```objc
 /*
 Animation Duration . Default value 0.3
 */
 
 @property (assign, nonatomic) float animationDuration;
 ```
-
+```objc
 /*
 Presenting animation type
 */
-```
+
 @property (assign, nonatomic) FlyInAnimationDirection inAnimation;
 ```
-
+```objc
 /*
 Dismissing animation type
 */
-```
+
 @property (assign, nonatomic) FlyOutAnimationDirection outAnimation;
 ```
-
+```objc
 /*
 Background Dim enable . Default value NO
 */
-```
+
 @property (assign, nonatomic) BOOL blurBackground;
 ```
-
+```objc
 /*
 Dismiss on Background Touch . Default value NO
 */
-```
+
 @property (assign, nonatomic) BOOL dismissOnBackgroundTap;
 ```
-
+```objc
 /*
 Background Dim Alpha . Default value 0.3
 */
-```
+
 @property (assign, nonatomic) float dimBackgroundLevel;
 ```
-
+```objc
 /*
 Title for Popup View. Default value @"Hi!"
 */
-```
+
 @property (strong, nonatomic) NSString *title;
 ```
-
+```objc
 /*
 Message for Popup View. Default value @"Hello World!"
 */
-```
+
 @property (strong, nonatomic) NSString *message;
 ```
-
+```objc
 /*
 Cancel button title for Popup View. Default value @"Cancel"
 */
-```
+
 @property (strong, nonatomic) NSString *cancelButtonTitle;
 ```
-
+```objc
 /*
 Other button title for Popup View. Default value @"Done"
 */
-```
+
 @property (strong, nonatomic) NSString *otherButtonTitle;
 ```
-
+```objc
 /*
 Buttons Radius . Default value 10
 */
-```
+
 @property (assign, nonatomic) float buttonRadius;
 ```
-
+```objc
 /*
 Corner radius for Popup view. Default value 10
 */
-```
+
 @property (assign, nonatomic) float cornerRadius;
 ```
-
+```objc
 /*
 Icon image name for Popup View. Default value @"icon"
 */
-```
+
 @property (strong, nonatomic) NSString *iconName;
 ```
-
+```objc
 /*
  Image name for Popup View. Default value @"icon"
  */
-```
+
 @property (strong, nonatomic) NSString *imgName;
 ```
 
